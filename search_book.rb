@@ -24,20 +24,3 @@ def search_book(filename)
 
   filtered_books
 end
-
-file_content = "Book ID|Book Name|Author|Quantity
-1|Book 1|Author 1|5
-2|Book 2|Author 2|5
-3|Book 3|Author 3|5
-4|Book 4|Author 4|5
-5|Book 5|Author 5|5
-6|Book 6|Author 6|5
-7|Book 7|Author 7|10
-8|Book 8|Author 7|10
-9|Book 8|Author 8|10"
-
-filtered_books = [
-"1|Book 1|Author 1|5",
-"2|Book 2|Author 2|5",
-"3|Book 3|Author 3|5"
-]
